@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Exchange Rate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="background">
+    <script src="js.js"></script>
+    <div class="container">
+        <div class="select-container">
+        <p>Swap Currency</p>
+        <select id="cur_sel"></select>
+        </div>
+        <input type="text" id="top_input">
+        <p id="top-name">United States Dollar</p>
+    </div>
+    <button id='btn' class="swap-button"><img src="sort-alt.png" alt="arrows"></button>
+    <div class="container" style="margin: 0px; border-radius: 40px 40px 0px 0px;">
+        
+        <div class="select-container">
+        <p>To</p>
+        <p id="low-name" style="margin-left: 50px;">United States Dollar</p>
+        <select id="cur_sel2"></select>
+        </div>
+        <input type="text" id="bottom_input">
+    </div>
+    <div class="select-container-green">
+        <p style="padding-left: 60px;">Exchange rate</p>
+        <p style="padding-right: 60px;" id="rate">1 USD = 1 USD</p>
+    </div>
+
+</body>
+</html>
